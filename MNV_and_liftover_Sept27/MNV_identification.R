@@ -2,7 +2,7 @@ library(data.table)
 library(GenomicRanges)
 
 # Load Van Allen Dataset (https://www.ncbi.nlm.nih.gov/pubmed/26359337)
-variants = fread("mutations.txt")
+variants = fread("MNV_and_liftover_Sept27/data/mutations.txt")
 
 head(variants)
 table(variants$Variant_Type)
